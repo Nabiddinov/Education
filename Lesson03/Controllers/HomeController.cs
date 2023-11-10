@@ -1,6 +1,6 @@
-﻿using Lesson03.Models;
+﻿using System.Diagnostics;
+using Lesson03.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
 namespace Lesson03.Controllers
 {

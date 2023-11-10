@@ -27,7 +27,7 @@ namespace Lesson03.Controllers
             if (string.IsNullOrEmpty(searchString))
             {
                 return View(await _context.Students.ToListAsync());
-            }  
+            }
             var students = await _context.Students
                 .Include(s => s.Enrollments)
                 .ThenInclude(e => e.Group)

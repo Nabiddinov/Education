@@ -1,8 +1,8 @@
-﻿using Bogus;
+﻿using System.Diagnostics;
+using Bogus;
 using Lesson03.DAL;
 using Lesson03.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics;
 
 namespace Lesson03.Extensions
 {
